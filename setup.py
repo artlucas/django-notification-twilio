@@ -16,6 +16,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 requirements = [
     "django-notification",
+    "twilio"
 ]
 
 test_requirements = [
